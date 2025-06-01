@@ -137,10 +137,3 @@ db.books.createIndex({ author: 1, published_year: -1 })
 db.books.find({ title: "1984" }).explain("executionStats")
 // With index in place:
 db.books.find({ title: "1984" }).explain("executionStats")
-
-
-
-
-
-
-
